@@ -8,6 +8,7 @@ Dependencies:
 
 Applescript:
 
+```
 on remove_extension(this_name)
 	if this_name contains "." then
 		set this_name to (the reverse of every character of this_name) as string
@@ -34,3 +35,4 @@ on run {input, parameters}
 	end repeat
 	return input
 end run
+```
